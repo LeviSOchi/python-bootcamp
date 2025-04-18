@@ -45,6 +45,7 @@ while bonus_valido is not True:
         if bonus < 0:
             print("Por favor, digite um valor positivo para o bônus.")
         else:
+            # Se não houver nenhum erro, variável se torna True e encerra o fluxo
             bonus_valido = True
     except ValueError:
         print("Entrada inválida para o bônus. Por favor, digite um número.")
