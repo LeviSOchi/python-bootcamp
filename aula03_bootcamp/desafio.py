@@ -1,12 +1,12 @@
-# Solicita ao usuário que digite seu nome
 nome_valido = False
 salario_valido = False
 bonus_valido = False
 
+# Enquanto a variável nome_valido continuar False o fluxo continua
 while nome_valido is not True:
     try:
+        # Solicita ao usuário que digite seu nome
         nome = input("Digite seu nome: ")
-
         # Verifica se o nome está vazio
         if len(nome) == 0:
             raise ValueError("O nome não pode estar vazio.")
@@ -17,12 +17,14 @@ while nome_valido is not True:
         elif any(char.isdigit() for char in nome):
             raise ValueError("O nome não deve conter números.")
         else:
+            # Se não houver nenhum erro, variável se torna True e encerra o fluxo
             nome_valido = True
     except ValueError as e:
         print(e)
 
 # Solicita ao usuário que digite o valor do seu salário e converte para float
 
+# Enquanto a variável nome_valido continuar False o fluxo continua
 while salario_valido is not True:
     try:
         salario = float(input("Digite o valor do seu salário: "))
@@ -30,6 +32,7 @@ while salario_valido is not True:
         if salario < 0:
             print("Por favor, digite um valor positivo para o salário.")
         else:
+            # Se não houver nenhum erro, variável se torna True e encerra o fluxo
             salario_valido = True
     except ValueError:
         print("Entrada inválida para o salário. Por favor, digite um número.")
