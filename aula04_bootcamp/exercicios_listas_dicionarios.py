@@ -7,6 +7,7 @@ for numero in numeros:
 
 #2 Dada a lista ["Python", "Java", "C++", "JavaScript"], remova o item "C++" e adicione "Ruby".
 linguagens = ["Python", "Java", "C++", "JavaScript"]
+linguagens.remove("C++")
 linguagens.append("Ruby")
 
 print(linguagens)
@@ -52,16 +53,23 @@ print("Idades válidas ")
 
 #8 Objetivo: Dada uma lista de dicionários representando pessoas, ordená-las pelo nome.
 
+
 #9 Objetivo: Dado um conjunto de números, calcular a média.
+
 
 #10 Objetivo: Dada uma lista de valores, dividir em duas listas: uma para valores pares e outra para ímpares.
 
+
 #11 Objetivo: Dada uma lista de dicionários representando produtos, atualizar o preço de um produto específico.
+
 
 #12 Objetivo: Dados dois dicionários, fundi-los em um único dicionário.
 
+
 #13 Objetivo: Dado um dicionário de estoque de produtos, filtrar aqueles com quantidade maior que 0.
 
+
 #14 Objetivo: Dado um dicionário, criar listas separadas para suas chaves e valores.
+
 
 #15 Objetivo: Dada uma string, contar a frequência de cada caractere usando um dicionário.
