@@ -152,7 +152,10 @@ dados = []
 entrada = ""
 while entrada.lower() != "sair":
     entrada = input("Digite um valor (ou 'sair' para terminar): ")
+    dados.append(entrada)
     if entrada.lower() == "sair":
+        dados.pop()
+        print(dados)
         exit()
 
 ### Exercício 12. Validação de Entrada
