@@ -1,7 +1,3 @@
-def minha_funcao():
-    return "Hello, World!"
-
-
 # funcao = agilidade na sustentação do código
 def soma(valor_1_para_somar: float, valor_2_para_somar: float) -> float:
     """
