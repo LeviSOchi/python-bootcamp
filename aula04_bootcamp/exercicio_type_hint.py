@@ -1,9 +1,11 @@
 # O uso de Type Hint ajuda a tornar o código mais legível e seguro, especificando o tipo de dados esperados por funções e variáveis.
 
+
 # Exercício será tipar o desafio da aula 03
 nome_valido: bool = False
 salario_valido: bool = False
 bonus_valido: bool = False
+
 
 # Enquanto a variável nome_valido continuar False o fluxo continua
 while nome_valido is not True:
@@ -26,6 +28,7 @@ while nome_valido is not True:
         print(e)
 
 # Solicita ao usuário que digite o valor do seu salário e converte para float
+
 
 # Enquanto a variável nome_valido continuar False o fluxo continua
 while salario_valido is not True:
@@ -56,6 +59,6 @@ while bonus_valido is not True:
 bonus_recebido: float = 1000 + salario * bonus  # Exemplo simples de KPI
 
 # Imprime as informações para o usuário
-print(f"{nome}, seu salário é R${salario:.2f} e seu bônus final é R${bonus_recebido:.2f}.")
-
-
+print(
+    f"{nome}, seu salário é R${salario:.2f} e seu bônus final é R${bonus_recebido:.2f}."
+)
