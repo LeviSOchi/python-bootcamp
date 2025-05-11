@@ -1,6 +1,6 @@
 ## Calendário Bootcamp - Python do zero
 
-Um intensivo único com tópicos avançados para resolver problemas reais.
+Um intensivo único de Python para dados com tópicos avançados para resolver problemas reais.
 
 | Aula  | Workshop                                                                 |
 |-------|--------------------------------------------------------------------------|
