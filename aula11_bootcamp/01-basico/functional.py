@@ -1,6 +1,6 @@
 import pandas as pd
 
-def carregar_csv_e_filtrar(arquivo_csv, estado):
+def carregar_csv_e_filtrar(arquivo_csv, estado, populacao):
     # Carregar o arquivo CSV em um DataFrame
     df = pd.read_csv(arquivo_csv)
     
