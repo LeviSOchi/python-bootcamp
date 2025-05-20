@@ -18,3 +18,11 @@ limite = "SP"
 arquivo_CSV = CsvProcessador(arquivo_csv)
 arquivo_CSV.carregar_csv()
 print(arquivo_CSV.filtrar_por(filtro,limite))
+
+arquivo_CSV2 = "./exemplo.csv"
+filtro = "estado"
+limite = "PR"
+
+arquivo_CSV2 = CsvProcessador(arquivo_CSV2)
+arquivo_CSV2.carregar_csv()
+print(arquivo_CSV2.filtrar_por(filtro,limite))
